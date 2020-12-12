@@ -22,9 +22,4 @@
 .whatsapp-link:hover {
     color: rgb(17, 47, 17);
     text-decoration: none;
-} 
-.map {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
 }
