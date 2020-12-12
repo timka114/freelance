@@ -16,7 +16,7 @@
 	font-size: 20px;
 }
 
-.consultation, .description, .rating-block {
+.consultation, .description, .rating-block, .bordered-title, .specifications, .spec-text {
 	border: 1px solid black;
 	padding: 10px;
 }
@@ -50,6 +50,30 @@
 	font-size: 20px;
 }
 
+#product-specification {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#product-specification > .bordered-title{
+    display: inline-block;
+    font-size:  1.75rem;
+}
+
+.specifications {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.spec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spec-text {
+    font-size: 20px;
+    margin: 0;
+}
 
 @media(max-width: 750px) {
 }

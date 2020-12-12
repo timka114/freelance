@@ -151,6 +151,10 @@ table td {
     text-align: center;
 }
 
+.dashed-hr {
+    border-top: 2px dashed gray;
+    
+}
 
 @media(max-width: 750px) {
     .path {
