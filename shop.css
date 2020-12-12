@@ -1,0 +1,20 @@
+.wayhref > a  {
+    padding-left: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.wayhref > a:hover {
+    background-color: lightgray;
+    transition: 0.3s;
+    text-decoration: none;
+}   
+.wayhref {
+    padding-left: 10%;
+    padding-top: 20px;
+}
+.shophref {
+    color: blue!important;
+}
+
+

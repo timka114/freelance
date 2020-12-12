@@ -1,0 +1,71 @@
+.wayhref > a  {
+    padding-left: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.wayhref > a:hover {
+    background-color: lightgray;
+    transition: 0.3s;
+    text-decoration: none;
+}   
+.wayhref {
+    padding-left: 10%;
+    padding-top: 20px;
+}
+.shophref {
+    color: blue!important;
+}
+.filter-arrow-up {
+    transform: rotate(270deg);
+    height: 30px;  
+}
+.filter-arrow-down {
+    transform: rotate(90deg);
+    height: 30px;
+}
+.filter-price {
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20px;
+}
+li {
+    color: blue;
+}
+ul {
+    margin-top: 10px;
+}
+.filter-rating {
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 20px;
+    height: 64px;
+
+}
+@media(min-width: 720px) {
+    .filter {
+        display: grid;
+        grid-template-columns:auto auto;
+        text-align: center;
+    }
+}
+@media(min-width: 320px) and (max-width: 720px) {
+    .filter {
+        display: grid;
+        grid-template-rows:auto auto;
+        text-align: center;
+    }
+    .filter-price {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+    }
+    .filter-rating {
+        margin-top: 30px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
