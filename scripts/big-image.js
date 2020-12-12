@@ -13,6 +13,9 @@ function showLargePreview(el) {
 function closeLargePreview() {
     let targetContainer = document.getElementById('large-preview');
 
+    let target = document.getElementById('large-img');
+    target.src = "";
+
     targetContainer.classList.remove("previewed");
     targetContainer.classList.add("invisible");
 }
