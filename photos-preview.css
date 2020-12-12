@@ -1,0 +1,57 @@
+#preview {
+	width: 100%;
+	max-width: 450px;
+}
+
+@media(max-width: 750px) {
+	#preview {
+		width: 95%;
+		max-width: 450px;
+	}
+}
+
+#photos-preview {
+	display: grid;
+}
+
+#preview-controls {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+#preview-controls button {
+	background: 0;
+	border: 3px solid #ccc;
+	background-color: #ccc;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+	cursor: pointer;
+
+	transition: 0.3s;
+}
+
+#preview-controls button:hover {
+	border: 3px solid gray;
+
+	transition: 0.3s;
+}
+
+.preview-photo {
+	grid-column: 1;
+	grid-row: 1;
+	width: 100%;
+	max-width: 450px;
+}
+
+.previewed {
+	opacity: 1;
+	transition: 1s;
+}
+
+.invisible {
+	opacity: 0;
+	transition: 1s;
+}

@@ -1,261 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-		
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="products.css">
-    <title>Магазин</title>
-</head>
-<body>
-    <div id="content">
-        <header>
-            <div class="header-content">
-                <div class="logo-container">
-                    <img src="imgs/logo.png" alt="ЛОГО" width="250" height="93">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    		
+            <link rel="stylesheet" href="styles.css">
+            <link rel="stylesheet" href="products.css">
+        <title>Магазин</title>
+    </head>
+    <body>
+        <div id="content">
+            <header>
+                <div class="header-content">
+                    <div class="logo-container">
+                        <img src="imgs/logo.png" alt="ЛОГО" width="250" height="93">
+                    </div>
+                    <div class="nav-container">
+                        <nav class="top-nav">
+                            <a href="/">Главная</a>
+                            <a href="/">Отделка бани</a>
+                            <a href="/" class="pathlink">Магазин</a>
+                            <a href="/">Всё о бане</a>
+                            <a href="/">Установка печей</a>
+                            <a href="/">Контакты</a>
+                        </nav>
+                    </div>
                 </div>
-                <div class="nav-container">
-                    <nav class="top-nav">
+            </header>
+            <hr noshade size="2">
+            <div class="ad"></div>
+            <div class="path">
+                <a href="/" class="pathlink">Главная </a> /
+                <a href="/" class="pathlink">Магазин</a> /
+                <a href="/" class="pathlink">Текст</a> /
+                Текст
+            </div>
+            <div class="filter">
+                <div class="filter-price">
+                    Цена: 
+                    <img src="imgs/arrow-right-24.svg" alt="->" class="filter-arrow-down">
+                    <img src="imgs/arrow-right-24.svg" alt="->" class="filter-arrow-up">
+                
+                    <div class="rating-price">
+                        <ul>
+                            <li>0-50000 руб.</li>
+                            <li>50000-100000 руб.</li>
+                            <li>100000-200000 руб.</li>
+                            <li>200000-500000 руб.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="filter-rating">
+                    Рейтинг магазина:
+                    <img src="imgs/arrow-right-24.svg" alt="->" class="filter-arrow-down">
+                    <img src="imgs/arrow-right-24.svg" alt="->" class="filter-arrow-up">
+                </div>
+            </div>
+
+
+            <div class="products">
+                <div class="product-block">
+                    <hr noshade size="2">
+                    <h3>Заголовок</h3>
+                    <img src="imgs/product.png" alt="Товар">
+                    <div class="price-block">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="price-text">Цена</div>
+                                </td>
+                                <td>
+                                    <a href="/" class="price-icon">
+                                        <img src="imgs/arrow-right-24.svg" alt="->">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="product-block">
+                    <hr noshade size="2">
+                    <h3>Заголовок</h3>
+                    <img src="imgs/product.png" alt="Товар">
+                    <div class="price-block">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="price-text">Цена</div>
+                                </td>
+                                <td>
+                                    <a href="/" class="price-icon">
+                                        <img src="imgs/arrow-right-24.svg" alt="->">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="product-block">
+                    <hr noshade size="2">
+                    <h3>Заголовок</h3>
+                    <img src="imgs/product.png" alt="Товар">
+                    <div class="price-block">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="price-text">Цена</div>
+                                </td>
+                                <td>
+                                    <a href="/" class="price-icon">
+                                        <img src="imgs/arrow-right-24.svg" alt="->">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="product-block">
+                    <hr noshade size="2">
+                    <h3>Заголовок</h3>
+                    <img src="imgs/product.png" alt="Товар">
+                    <div class="price-block">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="price-text">Цена</div>
+                                </td>
+                                <td>
+                                    <a href="/" class="price-icon">
+                                        <img src="imgs/arrow-right-24.svg" alt="->">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="product-block">
+                    <hr noshade size="2">
+                    <h3>Заголовок</h3>
+                    <img src="imgs/product.png" alt="Товар">
+                    <div class="price-block">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="price-text">Цена</div>
+                                </td>
+                                <td>
+                                    <a href="/" class="price-icon">
+                                        <img src="imgs/arrow-right-24.svg" alt="->">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="product-block">
+                    <hr noshade size="2">
+                    <h3>Заголовок</h3>
+                    <img src="imgs/product.png" alt="Товар">
+                    <div class="price-block">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="price-text">Цена</div>
+                                </td>
+                                <td>
+                                    <a href="/" class="price-icon">
+                                        <img src="imgs/arrow-right-24.svg" alt="->">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="product-block">
+                    <hr noshade size="2">
+                    <h3>Заголовок</h3>
+                    <img src="imgs/product.png" alt="Товар">
+                    <div class="price-block">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="price-text">Цена</div>
+                                </td>
+                                <td>
+                                    <a href="/" class="price-icon">
+                                        <img src="imgs/arrow-right-24.svg" alt="->">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="product-block">
+                    <hr noshade size="2">
+                    <h3>Заголовок</h3>
+                    <img src="imgs/product.png" alt="Товар">
+                    <div class="price-block">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="price-text">Цена</div>
+                                </td>
+                                <td>
+                                    <a href="/" class="price-icon">
+                                        <img src="imgs/arrow-right-24.svg" alt="->">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="product-block">
+                    <hr noshade size="2">
+                    <h3>Заголовок</h3>
+                    <img src="imgs/product.png" alt="Товар">
+                    <div class="price-block">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="price-text">Цена</div>
+                                </td>
+                                <td>
+                                    <a href="/" class="price-icon">
+                                        <img src="imgs/arrow-right-24.svg" alt="->">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="change-pages">
+                <a href="#">
+                    <img src="imgs/arrow-right-24.svg" class="main-arrow-left">
+                </a>
+                <div class="pages">
+                    <a href="">1</a> -
+                    <a href="">2</a> -
+                    <a href="">3</a> -
+                    <a href="">4</a>
+                </div>
+                <div class="other">...</div>
+                <a href="#">
+                    <img src="imgs/arrow-right-24.svg" class="main-arrow-right">
+                </a>
+            </div>
+
+            <hr noshade size="2">
+
+            <div class="bottom">
+                <div></div>
+                <a href="#top" id="aArrow">
+                    <img src="imgs/arrow-right-24.svg" id="main-arrow-up">
+                </a>
+                
+                <div class="footer">
+                <div class="footer-container">
+                    <nav class="bottom-nav">
                         <a href="/">Главная</a>
                         <a href="/">Отделка бани</a>
-                        <a href="/" class="shophref">Магазин</a>
+                        <a href="/">Магазин</a>
                         <a href="/">Всё о бане</a>
                         <a href="/">Установка печей</a>
                         <a href="/">Контакты</a>
                     </nav>
                 </div>
-            </div>
-        </header>
-        <hr noshade size="2">
-        <div class="ad"></div>
-        <div class="wayhref">
-            <a href="/" class="shophref">Главная </a> /
-            <a href="/" class="shophref">Магазин</a> /
-            <a href="/" class="shophref">Текст</a> /
-            <a href="/">Текст</a>
-        </div>
-        <div class="filter">
-            <div class="filter-price">
-                Цена: 
-                <img src="imgs/arrow-right-24.svg" alt="->" class="filter-arrow-down">
-                <img src="imgs/arrow-right-24.svg" alt="->" class="filter-arrow-up">
-            
-            <div class="rating-price">
-                <ul>
-                    <li>0-50000 руб.</li>
-                    <li>50000-100000 руб.</li>
-                    <li>100000-200000 руб.</li>
-                    <li>200000-500000 руб.</li>
-                </ul>
-            </div>
-            </div>
-            <div class="filter-rating">
-                Рейтинг магазина:
-                <img src="imgs/arrow-right-24.svg" alt="->" class="filter-arrow-down">
-                <img src="imgs/arrow-right-24.svg" alt="->" class="filter-arrow-up">
+                </div>
             </div>
         </div>
-        </div>
-        <div class="products">
-            <div class="product-block">
-                <hr noshade size="2">
-                <h3>Заголовок</h3>
-                <img src="imgs/product.png" alt="Товар">
-                <div class="price-block">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="price-text">Цена</div>
-                            </td>
-                            <td>
-                                <a href="/" class="price-icon">
-                                    <img src="imgs/arrow-right-24.svg" alt="->">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="product-block">
-                <hr noshade size="2">
-                <h3>Заголовок</h3>
-                <img src="imgs/product.png" alt="Товар">
-                <div class="price-block">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="price-text">Цена</div>
-                            </td>
-                            <td>
-                                <a href="/" class="price-icon">
-                                    <img src="imgs/arrow-right-24.svg" alt="->">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="product-block">
-                <hr noshade size="2">
-                <h3>Заголовок</h3>
-                <img src="imgs/product.png" alt="Товар">
-                <div class="price-block">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="price-text">Цена</div>
-                            </td>
-                            <td>
-                                <a href="/" class="price-icon">
-                                    <img src="imgs/arrow-right-24.svg" alt="->">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="product-block">
-                <hr noshade size="2">
-                <h3>Заголовок</h3>
-                <img src="imgs/product.png" alt="Товар">
-                <div class="price-block">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="price-text">Цена</div>
-                            </td>
-                            <td>
-                                <a href="/" class="price-icon">
-                                    <img src="imgs/arrow-right-24.svg" alt="->">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="product-block">
-                <hr noshade size="2">
-                <h3>Заголовок</h3>
-                <img src="imgs/product.png" alt="Товар">
-                <div class="price-block">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="price-text">Цена</div>
-                            </td>
-                            <td>
-                                <a href="/" class="price-icon">
-                                    <img src="imgs/arrow-right-24.svg" alt="->">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="product-block">
-                <hr noshade size="2">
-                <h3>Заголовок</h3>
-                <img src="imgs/product.png" alt="Товар">
-                <div class="price-block">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="price-text">Цена</div>
-                            </td>
-                            <td>
-                                <a href="/" class="price-icon">
-                                    <img src="imgs/arrow-right-24.svg" alt="->">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="product-block">
-                <hr noshade size="2">
-                <h3>Заголовок</h3>
-                <img src="imgs/product.png" alt="Товар">
-                <div class="price-block">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="price-text">Цена</div>
-                            </td>
-                            <td>
-                                <a href="/" class="price-icon">
-                                    <img src="imgs/arrow-right-24.svg" alt="->">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="product-block">
-                <hr noshade size="2">
-                <h3>Заголовок</h3>
-                <img src="imgs/product.png" alt="Товар">
-                <div class="price-block">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="price-text">Цена</div>
-                            </td>
-                            <td>
-                                <a href="/" class="price-icon">
-                                    <img src="imgs/arrow-right-24.svg" alt="->">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div class="product-block">
-                <hr noshade size="2">
-                <h3>Заголовок</h3>
-                <img src="imgs/product.png" alt="Товар">
-                <div class="price-block">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="price-text">Цена</div>
-                            </td>
-                            <td>
-                                <a href="/" class="price-icon">
-                                    <img src="imgs/arrow-right-24.svg" alt="->">
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-
-
-        </div>
-
-        <div class="bottom">
-            <div></div>
-            <a href="#top" id="aArrow">
-                <img src="imgs/arrow-right-24.svg" id="main-arrow-up">
-            </a>
-            
-            <div class="footer">
-            <div class="footer-container">
-                <nav class="bottom-nav">
-                    <a href="/">Главная</a>
-                    <a href="/">Отделка бани</a>
-                    <a href="/">Магазин</a>
-                    <a href="/">Всё о бане</a>
-                    <a href="/">Установка печей</a>
-                    <a href="/">Контакты</a>
-                </nav>
-            </div>
-            </div>
-        </div>
-        
-    </div>
-</body>
+    </body>
 </html>
