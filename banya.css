@@ -23,9 +23,9 @@
 
 #large-preview {
     position: fixed;
-    margin-top: -1vh;
+    margin-top: -2vh;
     width: 100vw;
-    height: 100vh;
+    height: 102vh;
     background-color: rgba(0, 0, 0, .3);
 }
 
@@ -96,5 +96,9 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .close-large-preview-button {
+        margin: 20px;
     }
 } 
