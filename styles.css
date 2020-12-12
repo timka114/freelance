@@ -30,6 +30,10 @@ a {
     margin-top: 0;
 }
 
+.invisible {
+    visibility: hidden!important;
+}
+
 
 #content {
     margin: 10px;
