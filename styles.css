@@ -99,7 +99,6 @@ table td {
     margin-top: 40px;
     margin-bottom: 20px;
     margin-left: auto;
-    width: 400px;
     border: 1px solid black;
     padding: 10px;
 
@@ -385,6 +384,6 @@ table td {
         text-align: center;
     }
     .footer-container {
-        width: 300px;
+        width: 75vw;
     }
 }
