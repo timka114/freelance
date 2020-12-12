@@ -108,6 +108,7 @@ table td {
 .path {
     padding-left: 10%;
     padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 20px;
     color: black;
 }
@@ -149,6 +150,7 @@ table td {
     margin-bottom: 15px;
     text-align: center;
 }
+
 
 @media(max-width: 750px) {
     .path {
