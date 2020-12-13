@@ -1,5 +1,4 @@
 .banya-block {
-    border: 1px solid black;
     padding: 10px;
     margin-left: 5%;
     margin-right: 5%;
@@ -79,8 +78,8 @@
     .img-discription {
 
         padding: 10px;
-    }
 
+    }
     .in-text-img {
         float: none;
     }
