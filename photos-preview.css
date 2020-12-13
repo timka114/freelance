@@ -11,7 +11,8 @@
 }
 
 #photos-preview {
-	display: grid;
+    display: grid;
+    cursor: pointer;
 }
 
 #preview-controls {
