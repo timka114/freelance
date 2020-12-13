@@ -12,7 +12,8 @@ function selectPhoto(index) {
 
 window.onload = function () {
 	let photosNum = $('#photos-preview .preview-photo').length;
-	let switchesContainer = $('#preview-controls');
+    let switchesContainer = $('#preview-controls');
+    switchesContainer.html("");
 
 	for (let i = 1; i < photosNum + 1; i++) {
 		let index =  i - 1;

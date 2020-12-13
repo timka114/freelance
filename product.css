@@ -16,9 +16,13 @@
 	font-size: 20px;
 }
 
-.consultation, .description, .rating-block, .bordered-title, .specifications, .spec-text {
+.consultation, .rating-block, .bordered-title, .specifications, .spec-text {
 	border: 1px solid black;
 	padding: 10px;
+}
+
+.price-block {
+    margin-left: 0!important;
 }
 
 .price-block table {
@@ -75,7 +79,10 @@
     margin: 0;
 }
 
-@media(max-width: 750px) {
+@media(max-width: 1170px) {
+	#detailed-top-info > div {
+		margin-top: 20px;
+	}
 }
 
 @media(min-width: 1170px) {
@@ -94,15 +101,9 @@
 }
 
 @media(min-width: 480px) and (max-width: 750px) {
-	#detailed-top-info > div {
-		margin-top: 20px;
-	}
 }
 
 @media(min-width: 320px) and (max-width: 480px) {
-	#detailed-top-info > div {
-		margin-top: 20px;
-	}
 }
 
 @media(max-width: 1170px) {
