@@ -1,3 +1,5 @@
+var currentPhoto = 0;
+
 function selectPhoto(index) {
 	let photos = $('#photos-preview').children();
 
@@ -7,7 +9,16 @@ function selectPhoto(index) {
 	}
 
 	photos.eq(index).removeClass("invisible");
-	photos.eq(index).addClass("previewed");
+    photos.eq(index).addClass("previewed");
+    
+    currentPhoto = index;
+}
+
+function selectNext() {
+	let photosNum = $('#photos-preview .preview-photo').length;
+    currentPhoto++;
+    currentPhoto %= photosNum;
+    selectPhoto(currentPhoto);
 }
 
 window.onload = function () {
