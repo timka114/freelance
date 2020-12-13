@@ -159,6 +159,11 @@ table td {
     transition: 0.3s;
     text-decoration: none;
 }
+.pages > a:hover {
+    background-color: lightgray;
+    transition: 0.3s;
+    text-decoration: none;
+}
 
 .path {
     padding-left: 10%;
